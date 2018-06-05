@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		a:hover{
+			color: red;
+			font-weight: bold;
+			border-right: 1px solid #ccc;
+			border-bottom: 1px solid #ccc;
+			text-decoration: none;
+			padding: 2px;
+		}
+		a:active{
+			color: green;
+			font-weight: bold;
+		}
+		.miFormulario input:focus{
+			background: #FF0;
+			/*width: 180px;*/
+		}
+		.miLista li:first-child{
+			color: green;
+			font-weight: bold;
+		}
+		.miLista li:last-child{
+			color: red;
+			font-weight: bold;
+		}
+		.miLista li:nth-child(odd){
+			background: white;
+		}
+		.miLista li:nth-child(even){
+			background: black;
+		}
+		.miLista li:hover{
+			background: red;
+		}
+	</style>
+</head>
+<body>
+<center>
+<a href="javascript:alert('Pseudoclases')">Enlace con Pseudoclases</a>
+
+<form class="miFormulario">
+	<input type="text" name="txtNombre" size="50" placeholder="Nombre"><br>
+	<input type="text" name="txtApellido" size="50" placeholder="Apellido"><br>
+	<input type="text" name="txtDireccion" size="50" placeholder="Direccion"><br>
+	<input type="text" name="txtCorreo" size="50" placeholder="Correo"><br>
+</form>
+<ul class="miLista">
+	<li>ENERO</li>
+	<li>FEBRERO</li>
+	<li>MARZO</li>
+	<li>ABRIL</li> 
+	<li>MAYO</li> 
+	<li>JUNIO</li> 
+	<li>JULIO</li>
+	<li>AGOSTO</li> 
+	<li>SEPTIEMBRE</li> 
+	<li>OCTUBRE</li>
+	<li>NOVIEMBRE</li> 
+	<li>DICIEMBRE</li>
+</ul>
+<b>Note:</b>
+</center>
+</body>
+</html>
